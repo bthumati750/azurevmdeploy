@@ -25,6 +25,6 @@ variable "admin_username" {
 variable "ssh_public_key_path" {
   type        = string
   description = "Path to your public SSH key (e.g., ~/.ssh/id_rsa.pub)"
-  default     = "C:\Users\bthum\.ssh\id_rsa.pub"
+  default     = "C:\\Users\\bthum\\.ssh\\id_rsa.pub"
 
 
